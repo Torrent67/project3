@@ -2,6 +2,10 @@ body{
   background-image: url("img/bg2.png");
   background-size: cover;
 }
+h1{
+  color: red;
+  font-family: monospace;
+}
 .jumbotron{
   background-image: url("img/hal1.gif");
   background-size: cover;
@@ -24,4 +28,13 @@ p{
   color: lavender;
   text-shadow: 2px 2px 2px red;
   width: 50%;
+}
+#btn{
+  color: white;
+  background-color: black;
+}
+#number{
+  color: black;
+  font-weight: bold;
+  background-color: grey;
 }
