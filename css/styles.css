@@ -1,0 +1,27 @@
+body{
+  background-image: url("img/bg2.png");
+  background-size: cover;
+}
+.jumbotron{
+  background-image: url("img/hal1.gif");
+  background-size: cover;
+  max-height: 70%;
+  min-height: 80vh;
+  align-items: center;
+}
+
+p{
+  color: black;
+  float: left;
+  padding-top: 440px;
+  font-family: monospace;
+  text-shadow: 3px 3px 3px red;
+}
+#conV{
+  align-items: center;
+  font-family: monospace;
+  font-size: 20px;
+  color: lavender;
+  text-shadow: 2px 2px 2px red;
+  width: 50%;
+}
