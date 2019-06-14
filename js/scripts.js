@@ -16,7 +16,7 @@ $(document).ready(function(){
   for(var i = 0; i < ary.length; i++){
     if (i > 9 ) {
     spt = ary[i].toString().split('');
-  } else {
+  } else spt = ary[i].toString(); {
   }
     if(spt.indexOf('1') >=0 && spt.indexOf('2') <0 &&  spt.indexOf('3') <0){
       ary.splice(i,1,for1);
@@ -26,7 +26,7 @@ $(document).ready(function(){
       ary.splice(i,1,for3);
   }
 }
-  alert(ary);
+$("#beeperOutput").text(""+ary+".");
   event.preventDefault();
 });
 });
